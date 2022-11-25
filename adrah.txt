@@ -1,0 +1,43 @@
+ <div class="body">
+          <div class="stomach">
+            <div class="love">
+              <h1>
+                <iconify-icon
+                  class="heart"
+                  icon="emojione-v1:growing-heart"
+                ></iconify-icon
+                ><br />I love<br />U
+              </h1>
+            </div>
+            <div class="hands">
+              <div class="hand">
+                <div class="arm"></div>
+                <div class="palm"></div>
+              </div>
+              <div class="hand">
+                <div class="arm right"></div>
+                <div class="palm"></div>
+              </div>
+            </div>
+            <div class="legs">
+              <div class="leg">
+                <div class="thigh"></div>
+                <div class="feet">
+                  <div class="toes">
+                    <div class="toe-1"></div>
+                    <div class="toe-2"></div>
+                    <div class="toe-3"></div>
+                  </div>
+                  <div class="tip-toe"></div>
+                </div>
+              </div>
+              <div class="leg">
+                <div class="thigh right"></div>
+                <div class="feet">
+                  <div class="toes right">
+                    <div class="toe-1"></div>
+                    <div class="toe-2"></div>
+                    <div class="toe-3"></div>
+                  </div>
+                  <div class="tip-toe right"></div>
+                </div>

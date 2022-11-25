@@ -1,0 +1,66 @@
+h1{
+    color: darkkhaki;
+    font-size: xx-large;
+    font-weight: 400;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    background-color: hwb(78 22% 67%);
+    text-align: center;
+    display: inline-block;2
+}footer{
+    
+    font-size: medium;
+    color: black;
+   
+}p{
+    font-size: 100;
+    line-height: 2;
+    text-align: justify;
+}p2{
+    line-height: 2;
+    color: black;
+    border: 5;
+    text-align: right;;
+}p3{
+    color: black;
+    line-height: 2;
+    border-top: 5;
+    
+}p4{
+    color: black;
+    line-height: 2;
+    border-top: 5;
+}p5{
+    text-align: center;
+    color: black;
+    line-height: 2;
+}h1,footer,p,p2,p3,p4,p5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}body{
+    background-color: lightblue;
+    border: 5;
+}title{
+    border-block: 5;
+    color: burlywood;
+}a:link{
+    text-align: center;
+    color: rgb(148, 117, 106);
+}a:visited{
+    color: blueviolet;
+}a:hover{
+    color: red;
+}a:active{
+    color: blue;
+}li{
+    list-style: none;
+}li:nth-child(3){
+    color: black;
+}.first{
+    color: crimson;
+}#entertainment_gist{
+    color: chartreuse;
+}.about{
+    color: black;
+    background-color: azure;
+}

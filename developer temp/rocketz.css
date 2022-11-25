@@ -1,0 +1,139 @@
+body{
+    margin: auto;
+    display: block;
+    height: 100vh;
+}
+
+.container{
+    padding-top: 2%;
+    margin-inline: auto;
+    border-radius: 20px;
+    height: 100%;
+    width: 90%; 
+    background-image: url("../assert/stars.svg");
+    background-color: #012b3d;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_body{
+    margin-inline: auto;
+    border-radius: 20px;
+    height: 95%;
+    width: 95%;
+    background-color: #012b2b;
+    background-image: url("../assert/stars.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p_tag_one{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav_class{
+   display: flex;
+   padding: 0% 7%;
+   height: 20%;
+}
+.span_one{
+    margin-right: 2%;
+    color: rgb(88, 151, 43);
+    font-weight: 700;
+    font-size: 48px;
+    text-shadow: 3px 2px 5px rgb(224, 246, 95);
+}
+
+.nav_two a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 20px 0px 20px;
+}
+.nav_two a:hover{
+    color: rgb(107, 216, 23);
+    font-size: 26px;
+    cursor:pointer;
+}
+
+ ul{
+    margin: 0;
+    overflow: hidden;
+ }
+
+ li{
+    float: left;
+ }
+
+ li a, .drop_down{
+    display: inline-block;
+    color:#fff;
+    text-align: center;
+    padding: 12px 16px;
+ }
+ li a:hover, .Drop:hover .drop_down{
+    background-color: rgb(12, 49, 79);
+    border-radius: 6px;
+ }
+ li.Drop{
+    display: inline-block;
+ }
+ .trial_drop_down{
+    color: rgb(251, 252, 251);
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background-color: rgb(4, 60, 116);
+ }
+ .trial_drop_down a{
+    color: rgb(18, 12, 13);
+    font-size: 18px;
+    padding: 12px 16px;
+    text-align: left;
+    display: block;
+    font-weight: 700;
+ }
+ .Drop:hover .trial_drop_down{
+    display: block;
+ }
+ .trial_drop_down a:hover{
+    color: rgb(245, 247, 211);
+    background-color: rgb(3, 129, 247);
+ }
+.nav_one{
+    width: 20%;
+}
+.nav_two{
+    text-align: center;
+    width: 50%;
+    padding-top: 3%;
+}
+li a{
+    text-decoration: none;
+}
+.nav_three{
+    width: 30%;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.login, .register{
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 40%;
+    height: 30%;
+}
+.login{
+    background-color: #fafcfb;
+    margin-right: 5%;
+}
+.login:hover{
+    background-color: #eb9215;
+}
+.register{
+    background-color: greenyellow;
+}
+.register:hover{
+    background-color: rgb(47, 123, 255);
+}

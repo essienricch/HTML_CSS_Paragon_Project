@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 900px;
+  width: 900px;
+  border: 3px solid black;
+  margin: 20px;
+}
+.black{
+    font-size: 35px;
+    text-align: center;
+    line-height: calc(900px / 8);
+    vertical-align: middle;
+}
+
+.black-1 {
+  background-color: rgb(255, 255, 255);
+}
+
+.black-2 {
+  background-color: rgb(192, 150, 95);
+}
+
+.BB{
+    color: black;
+}
+
+.white{
+    color: red;
+}

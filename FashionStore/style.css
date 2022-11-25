@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(235, 220, 202);
+    background-size: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+body{
+    box-sizing: border-box;
+    
+    margin-inline: auto;
+    color: cornsilk;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1 span{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    line-height: 0.9;
+    color: black;
+}
+.topboyrich{
+    color: black;
+}
+a.left-half{
+    text-decoration: none;
+    text-size-adjust: 8px;
+    color: gray;
+    text-shadow: lightcyan;
+    
+}
+a.left-half:hover{
+    color: black;
+}
+a.right-half{
+    text-decoration: none;
+    color: gray;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    background-image:url("./richKhids-img/kateryna-hliznitsova-WxvXTth_cjk-unsplash.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+

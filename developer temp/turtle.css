@@ -1,0 +1,267 @@
+.container {
+    border: 10px solid black;
+    height: 30%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px ;
+    justify-content: center;
+    margin-left: 300px;
+    background-color: red;
+  }
+  .straight_line {
+    background-color: green;
+    height: 10px;
+    width: 150px;
+    padding-left: 400px;
+    position: relative;
+    left: 400px;
+   
+    
+  }
+  .vertical_line {
+    background-color: green;
+    height: 10px;
+  }
+  
+  .game-board {
+    
+    width: 50vw;
+  }
+  
+  .top {
+    margin-top: 20px;
+    height: 2vh;
+    width: 60vw;
+    background-color: green;
+  }
+  
+  .right-side {
+    position: absolute;
+    right: 6.2vw;
+    top: 50px;
+    height: 62vh;
+    width: 1.1vw;
+    background-color: green;
+  }
+  .left-side {
+    position: absolute;
+    top: 18vh;
+    height: 50vh;
+    width: 1.1vw;
+    background-color: green;
+  }
+  .top-drop-down {
+    position: absolute;
+    left: 39vw;
+    height: 12vh;
+    width: 1.1vw;
+    background-color: green;
+  }
+  .down{
+      margin-top: 20px;
+      height: 2vh;
+      width: 26vw;
+      background-color: green;
+      position: relative;
+      top: 59vh;
+    }
+    .bottom-drop-down {
+      position: absolute;
+      bottom: 230px;
+      right: 40.2vw;
+      height: 12vh;
+      width: 1.1vw;
+      background-color: green;
+    }
+    .second-down{
+      margin-top: 20px;
+      height: 2vh;
+      width: 15vw;
+      background-color: green;
+      position: absolute;
+      bottom: 28vh;
+      right: 105px;
+    }
+    .third-down{
+          position: absolute;
+          top: 57vh;
+          right: 14vw;
+          height: 12vh;
+          width: 1.1vw;
+          background-color: green;
+    }
+    .fourth-down{
+      margin-top: 20px;
+      height: 2vh;
+      width: 7vw;
+      background-color: green;
+      position: relative;
+      top: 54.2vh;
+      left: 550px;
+    }
+    .second-top {
+      margin-top: 20px;
+      height: 2vh;
+      width: 30vw;
+      background-color: green;
+      position: relative;
+      left: 500px;
+      bottom: 23px;
+    }
+    .third-top {
+      margin-top: 20px;
+      height: 2vh;
+      width: 7vw;
+      background-color: green;
+      position: relative;
+      left: 200px;
+      bottom: 55px;
+    }
+    .second-drop-down {
+      position: relative;
+      left: 192px;
+      bottom: 71px;
+      height: 12vh;
+      width: 1.1vw;
+      background-color: green;
+    }
+    .second-straight-line{
+      margin-top: 20px;
+      height: 2vh;
+      width: 5.5vw;
+      background-color: green;
+      position: absolute;
+      right: 923px;
+      top: 200px;
+    }
+    .third-drop-down {
+      position: absolute;
+      top: 220px;
+      left: 39vw;
+      height: 12vh;
+      width: 1.1vw;
+      background-color: green;
+    }
+    .fourth-top{
+          margin-top: 20px;
+          height: 2vh;
+          width: 10vw;
+          background-color: green;
+          position: relative;
+          top:0px;
+          left: 113px;
+        }
+        /* .-drop-down {
+          position: absolute;
+          left: 39vw;
+          height: 12vh;
+          width: 1.1vw;
+          background-color: green;
+        } */
+        .side {
+          position: relative;
+          left: 265px;
+          bottom: 100px;
+          height: 12vh;
+          width: 1.1vw;
+          background-color: green;
+        }
+        /* .third-straight-line{
+            margin-top: 20px;
+            height: 2vh;
+            width: 30vw;
+            background-color: green;
+            position: relative;
+            left:  265px;
+            bottom: 235px;
+          } */
+          .vertical-down {
+            position: absolute;
+            right: 20vw;
+            top: 219px;
+            height: 34vh;
+            width: 1.1vw;
+            background-color: green;
+          }
+          .little-top {
+            margin-top: 20px;
+            height: 2vh;
+            width: 5vw;
+            background-color: green;
+            position: relative;
+            left: 790px;
+            bottom:  180px;
+          }
+          .little-drop-up{
+            position: relative;
+            left: 50.2vw;
+            bottom: 288px;
+            height: 12vh;
+            width: 1.1vw;
+            background-color: green;
+          }
+          .mid-drop-down {
+            position: relative;
+            left: 200px;
+            bottom: 270px;
+            height: 29vh;
+            width: 1.1vw;
+            background-color: green;
+          }
+          .second-middle-drop-down {
+            position: relative;
+            left: 400px;
+            bottom: 718px;
+            height: 12vh;
+            width: 1.1vw;
+            background-color: green;
+          }
+          .side-drop-down{
+            height: 2vh;
+            width: 7vw;
+            background-color: green;
+            position: relative;
+            bottom: 65vh;
+            right: 0px;
+          }
+          .second-side-drop-down {
+            position: relative;
+            bottom: 645px;
+            left: 38.2vw;
+            height: 30vh;
+            width: 1.1vw;
+            background-color: green;
+          }
+          .third-side-drop-down {
+            position: relative;
+            bottom: 800px;
+            left: 32.1vw;
+            height: 20vh;
+            width: 1.1vw;
+            background-color: green;
+          }
+          .top-line{
+            height: 2vh;
+            width: 15vw;
+            background-color: green;
+            position: relative;
+            bottom: 130vh;
+            left: 414px;
+          }
+          .second-top-line{
+            height: 2vh;
+            width: 15vw;
+            background-color: green;
+            position: relative;
+            bottom: 120vh;
+            left: 310px;
+          }
+          .last-drop-down {
+            position: relative;
+            bottom: 1000px;
+            left: 18vw;
+            height: 12vh;
+            width: 1.1vw;
+            background-color: green;
+          }
