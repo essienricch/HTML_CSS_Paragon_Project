@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../SchoolStat"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "SchoolStat"
+  }
+}
